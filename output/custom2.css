@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: inheret;
+  -moz-box-sizing: inheret;
+  box-sizing: inheret; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+
+.container {
+  height: 100vh; }
+  .container .reveal-box {
+    position: relative;
+    background-color: green;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 10rem;
+    width: 10rem;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap; }
+    .container .reveal-box .cover {
+      position: absolute;
+      height: 10rem;
+      width: 10rem;
+      top: 0rem;
+      left: 0rem; }
+    .container .reveal-box .cover-12 {
+      background-color: red;
+      -webkit-clip-path: polygon(0 0, 100% 0, 50% 50%);
+      clip-path: polygon(0 0, 100% 0, 50% 50%);
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      transition: all 1s ease; }
+    .container .reveal-box .cover-3 {
+      background-color: blue;
+      -webkit-clip-path: polygon(100% 0, 50% 50%, 100% 100%);
+      clip-path: polygon(100% 0, 50% 50%, 100% 100%);
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      transition: all 1s ease; }
+    .container .reveal-box .cover-6 {
+      background-color: yellow;
+      -webkit-clip-path: polygon(50% 50%, 100% 100%, 0 100%);
+      clip-path: polygon(50% 50%, 100% 100%, 0 100%);
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      transition: all 1s ease; }
+    .container .reveal-box .cover-9 {
+      background-color: orange;
+      -webkit-clip-path: polygon(0 0, 50% 50%, 0 100%);
+      clip-path: polygon(0 0, 50% 50%, 0 100%);
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      transition: all 1s ease; }
+    .container .reveal-box:hover .cover-12 {
+      -webkit-transform: translateY(-5rem);
+      -moz-transform: translateY(-5rem);
+      -ms-transform: translateY(-5rem);
+      -o-transform: translateY(-5rem);
+      transform: translateY(-5rem); }
+    .container .reveal-box:hover .cover-3 {
+      -webkit-transform: translateX(5rem);
+      -moz-transform: translateX(5rem);
+      -ms-transform: translateX(5rem);
+      -o-transform: translateX(5rem);
+      transform: translateX(5rem); }
+    .container .reveal-box:hover .cover-6 {
+      -webkit-transform: translateY(5rem);
+      -moz-transform: translateY(5rem);
+      -ms-transform: translateY(5rem);
+      -o-transform: translateY(5rem);
+      transform: translateY(5rem); }
+    .container .reveal-box:hover .cover-9 {
+      -webkit-transform: translateX(-5rem);
+      -moz-transform: translateX(-5rem);
+      -ms-transform: translateX(-5rem);
+      -o-transform: translateX(-5rem);
+      transform: translateX(-5rem); }
+    .container .reveal-box p {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center; }
