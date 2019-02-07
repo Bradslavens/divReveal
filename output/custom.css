@@ -47,34 +47,34 @@ body {
       background-color: red;
       -webkit-clip-path: polygon(0 0, 100% 0, 50% 50%);
       clip-path: polygon(0 0, 100% 0, 50% 50%);
-      -webkit-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      transition: all 1s ease; }
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      transition: all .5s ease; }
     .container .reveal-box .cover-3 {
       background-color: blue;
       -webkit-clip-path: polygon(100% 0, 50% 50%, 100% 100%);
       clip-path: polygon(100% 0, 50% 50%, 100% 100%);
-      -webkit-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      transition: all 1s ease; }
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      transition: all .5s ease; }
     .container .reveal-box .cover-6 {
       background-color: yellow;
       -webkit-clip-path: polygon(50% 50%, 100% 100%, 0 100%);
       clip-path: polygon(50% 50%, 100% 100%, 0 100%);
-      -webkit-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      transition: all 1s ease; }
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      transition: all .5s ease; }
     .container .reveal-box .cover-9 {
       background-color: orange;
       -webkit-clip-path: polygon(0 0, 50% 50%, 0 100%);
       clip-path: polygon(0 0, 50% 50%, 0 100%);
-      -webkit-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      transition: all 1s ease; }
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      transition: all .5s ease; }
     .container .reveal-box:hover .cover-12 {
       -webkit-transform: translateY(-5rem);
       -moz-transform: translateY(-5rem);
